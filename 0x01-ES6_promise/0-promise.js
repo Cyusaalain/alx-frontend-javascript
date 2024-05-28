@@ -1,7 +1,10 @@
-function getResponseFromAPI() {
+export default function getRespondFromAPI() {
+  /* eslint-disable */
   return new Promise((resolve, reject) => {
-	  resolve('Success!') or reject(new Error('Failed!'))
+      if (true) {
+	resolve();
+      } else {
+	reject();
+      }
   });
 }
-
-export default getResponseFromAPI;
